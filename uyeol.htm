@@ -27,9 +27,9 @@
 				<div class="btn-group" id="butonlar">
 						<button class="btn btn-primary"><a href="index.htm">Ana Sayfa</a></button>
 						<button class="btn btn-primary"><a href="hakkinda.htm">Hakkında</a></button>
-						<button class="btn btn-primary"><a href="#">Sınavlar</a></button>
-						<button class="btn btn-primary"><a href="iletisim.htm">iletişim</a></button>
-						<button class="btn btn-primary"><a href="uyeol.htm">Üye Ol</a></button>
+						<button class="btn btn-primary"><a href="sinavlar.htm">Sınavlar</a></button>
+                        <button class="btn btn-primary"><a href="iletisim.htm">iletişim</a></button>
+                        <button class="btn btn-primary"><a href="#">Üye Ol</a></button>
 						<button class="btn btn-primary"><a href="adminpaneli.htm">Admin Paneli</a></button>
 					  </div>
 		</div>
@@ -52,13 +52,33 @@
 
 		</div>
 		<div id="content">
-			<div class="post">
-				<h2 class="title"><a href="fizik.htm">LYS 2 Fizik Soruları</a></h2>
-				<p class="meta">Pazar, 26 Kasım 2017 21:30 <br />
-					<span>Yazar: <a href="#">Ozan Özyurt</a></span></p>
-				<div class="entry">
-					<p>LYS 2 Fizik Sorularını görmek için lütfen tıklayınız</p><a href="fizik.htm"><button id="btnTikla" class="btn btn-success">Tıkla</button></a>
-				</div>
+                <div class="col-md-4">
+                        <h1>Kayıt Formu</h1>
+                        <div class="form-group">
+                            <label>Adı Soyadı</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                                <label>E-Posta</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            
+                            <button type="button" class="btn btn-success">Kaydet</button>
+                            
+                    </div>
+                    <div class="col-md-4">
+                            <h1>Giriş Formu</h1>
+                            <div class="form-group">
+                                    <label>Kulanıcı Adı</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                        <label>Parola</label>
+                                        <input type="password" class="form-control">
+                                    </div>
+                                    
+                                    <button type="button" class="btn btn-success">Giriş</button>
+                        </div>  
 			</div>
 		</div>
 		<!-- end #content -->
